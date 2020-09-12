@@ -351,7 +351,7 @@
 					</address>
 				</div>
 				<div class="footer-container">
-					<b class="footer-join">ПРИСОЕДИНЯЙТЕСЬ</b>
+					<b class="footer-join">Присоединяйтесь</b>
 
 					<ul class="footer-social-list">
 						<li class="footer-list-item">
@@ -384,53 +384,84 @@
 						</li>
 					</ul>
 				</div>
+					
+				<div class="footer-wrapper">
+						<b class="footer-join">Подпишитесь на рассылку</b>
+						<form action="" class="footer-form">
+							
+							<input type="email" name="email" id="email" class="footer-input" placeholder="E-mail">
+							<button type="submit" class="footer-btn">Подписаться
+							
+								
+              <svg class="footer-btn-svg">
+								<use href="./images/sprite.svg#icon-telegram"></use>
+							</svg>
+					
+								
+								</div>
+							</button>
+						
+						</form>
 			</div>
 		</footer>
 
 		<div class="backdrop is-hidden" data-modal>
 			<div class="pop-up">
 				<div class="modal">
+					
 					<h2 class="modal-text">Оставьте свои данные, мы вам перезвоним</h2>
-
+					
+					<button type="button" data-modal-close class="close-btn">X</button>
+				
 					<form action="" class="modal-form">
 						<div class="modal-form-field">
-							<label for="user-name">Имя</label>
 							<input type="text" name="user-name" id="user-name" class="modal-form-input" />
-							<!-- <svg class="modal-form-icon">
+							<label class="modal-form-input-label" for="user-name">Имя</label>
+
+							<svg class="modal-form-icon">
 								<use href="./images/sprite.svg#name"></use>
-							</svg> -->
+							</svg>
 						</div>
 
 						<div class="modal-form-field">
-							<label for="user-phone">Телефон</label>
 							<input type="tel" name="user-phone" id="user-phone" class="modal-form-input" />
-							<!-- <svg class="modal-form-icon">
+							<label class="modal-form-input-label" for="user-phone">Телефон</label>
+
+							<svg class="modal-form-icon">
 								<use href="./images/sprite.svg#phone"></use>
-							</svg> -->
+							</svg>
 						</div>
 
 						<div class="modal-form-field">
-							<label for="user-email">Почта</label>
 							<input type="email" name="user-email" id="user-email" class="modal-form-input" />
-							<!-- <svg>
+							<label class="modal-form-input-label" for="user-email">Почта</label>
+
+							<svg class="modal-form-icon">
 								<use href="./images/sprite.svg#mail"></use>
-							</svg> -->
+							</svg>
 						</div>
 
-						<div class="modal-form-field">
-							<label for="">Комментарий</label>
-							<textarea name="user-massage" class="modal-form-message"></textarea>
+						<div>
+							<label class="modal-form-comment" for="user-message">Комментарий</label>
+							<textarea
+								name="user-massage"
+								id="user-massage"
+								class="modal-form-message"
+								placeholder="Введите текст"
+							></textarea>
 						</div>
 
-						<input type="checkbox" name="user-policy" id="user-policy" class="modal-form-policy" />
-						<label for="user-policy" class="modal-form-label-policy">
-							Соглашаюсь с рассылкой и принимаю
-							<a href="">Условия договора</a>
+						<input type="checkbox" name="user-policy" id="user-policy" class="modal-form-check visually-hidden" />
+						<label for="user-policy" class="modal-form-label-check">
+							<span>
+								Соглашаюсь с рассылкой и принимаю
+								<a href="" class="policy-condition">Условия договора</a>
+							</span>
 						</label>
 
 						<button type="submit" class="modal-form-btn">Отправить</button>
 					</form>
-					<button type="button" data-modal-close class="close-btn">X</button>
+			
 				</div>
 			</div>
 		</div>
