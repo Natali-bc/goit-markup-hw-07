@@ -1,28 +1,39 @@
-.container .feature-list .title {
-	color: var(--primary-text-color);
+
+
+.feature-list {
+
+	 .title {
+	color: $primary-text-color;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
+	margin-bottom: 10px;
 }
-.feature-list .text {
-	color: var(--title-text-color);
+  .text {
+color: $title-text-color;
 	font-size: 14px;
 	line-height: 1.71;
-}
 
-.feature-section .feature-list {
-	display: flex;
+	}
 }
-.feature-section .item {
+.feature-section {
+ 
+  .feature-list {
+	 display: flex;
+ }
+
+  .item {
 	width: 270px;
 	flex-wrap: wrap;
 	margin-top: 94px;
 	margin-bottom: 94px;
 	margin-right: 30px;
 }
+}
+
 .section-title {
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 1.44;
@@ -31,54 +42,56 @@
 	padding-top: 94px;
 }
 
-.feature-list .item.details::before {
-	content: "";
+.feature-list {
+
+	.item.details::before {
+  content: "";
 	display: block;
 	width: 270px;
 	height: 120px;
-	background-color: var(--title-background-color);
+	background-color: $title-background-color;
 	background-image: url(../images/antenna-logo.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 4px;
 	margin-bottom: 30px;
-}
-.feature-list .item.punctuality::before {
+  }
+  .item.punctuality::before {
 	content: "";
 	display: block;
 	width: 270px;
 	height: 120px;
-	background-color: var(--title-background-color);
+	background-color: $title-background-color;
 	background-image: url(../images/clock-logo.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 4px;
 	margin-bottom: 30px;
 }
-.feature-list .item.planning::before {
+  .item.planning::before {
 	content: "";
 	display: block;
 	width: 270px;
 	height: 120px;
-	background-color: var(--title-background-color);
+	background-color: $title-background-color;
 	background-image: url(../images/diagram-logo.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 4px;
 	margin-bottom: 30px;
 }
-.feature-list .item.tech::before {
+  .item.tech::before {
 	content: "";
 	display: block;
 	width: 270px;
 	height: 120px;
-	background-color: var(--title-background-color);
+	background-color: $title-background-color;
 	background-image: url(../images/astronaut-logo.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 4px;
 	margin-bottom: 30px;
 }
-.feature-list .title {
-	margin-bottom: 10px;
+
 }
+

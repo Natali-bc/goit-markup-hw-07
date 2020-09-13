@@ -1,6 +1,6 @@
 .projects .btn {
-	background-color: var(--title-background-color);
-	color: var(--primary-text-color);
+	background-color: $title-background-color;
+	color: $primary-text-color;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
@@ -23,12 +23,12 @@ ul.projects {
 
 .projects .btn:hover,
 .projects .btn:focus {
-	background-color: var(--accent-color);
-	color: var(--primary-white-color);
+	background-color: $accent-color;
+	color: $primary-white-color;
 }
 .projects .btn.current {
-	background-color: var(--accent-color);
-	color: var(--primary-white-color);
+	background-color: $accent-color;
+	color: $primary-white-color;
 	width: 73px;
 	height: 38px;
 }

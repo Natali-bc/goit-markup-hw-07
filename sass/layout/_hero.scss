@@ -2,11 +2,11 @@
 	text-align: center;
 	padding-top: 200px;
 	padding-bottom: 280px;
-	background-color: var(--footer-background-color);
+	background-color: $footer-background-color;
 }
 
 .hero-title {
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.37;
@@ -14,8 +14,8 @@
 	margin-bottom: 30px;
 }
 .button {
-	background-color: var(--accent-color);
-	color: var(--primary-white-color);
+	background-color: $accent-color;
+	color: $primary-white-color;
 	font-weight: bold;
 	font-size: 16px;
 	min-width: 200px;
